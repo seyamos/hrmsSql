@@ -15,8 +15,8 @@ Sistemimiz üç temel kullanıcı türüne sahiptir. Sistem personeli, İş Aray
 ÖNEMLİ : Burada ilk etapta veri tabanı modeli istiyorum. Kod yazmanızı istemiyorum.
 
 **Req 1 : İş Arayanlar sisteme kayıt olabilmelidir.**
-Kabul Kriterleri:
 
+Kabul Kriterleri:
 Kayıt sırasında kullanıcıdan ad, soyad, tcno, doğum yılı, e-Posta, şifre, şifre tekrarı bilgileri istenir.
 Tüm alanlar zorunludur. Kullanıcı bilgilendirilir.
 Mernis doğrulaması yapılarak sisteme kayıt gerçekleştirilir.
@@ -25,8 +25,8 @@ Daha önce kayıtlı bir e-posta veya tcno var ise kayıt gerçekleşmez. Kullan
 Kayıdın gerçekleşmesi için e-posta doğrulaması gerekir.
 
 **Req 2 : İş verenler sisteme kayıt olabilmelidir.**
-Kabul Kriterleri:
 
+Kabul Kriterleri:
 Kayıt sırasında kullanıcıdan şirket adı, web sitesi, web sitesi ile aynı domaine sahip e-posta, telefon, şifre, şifre tekrarı bilgileri istenir. Burada amaç sisteme şirket olmayanların katılmasını engellemektir.
 Tüm alanlar zorunludur. Kullanıcı bilgilendirilir.
 Şirket kayıtları iki şekilde doğrulanır. Kayıdın gerçekleşmesi için e-posta doğrulaması gerekir. HRMS personelinin (bizim :)) onayı gerekmektedir.
@@ -34,5 +34,6 @@ Daha önce kayıtlı bir e-posta var ise kayıt gerçekleşmez. Kullanıcı bilg
 
 **Req 3 : Sisteme genel iş pozisyonu isimleri eklenebilmelidir. Örneğin Software Developer, Software Architect.
 **
+
 Kabul Kriterleri:
 Bu pozisyonlar tekrar edemez. Kullanıcı uyarılır.
